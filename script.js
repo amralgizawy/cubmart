@@ -82,6 +82,56 @@ var swiper = new Swiper('.review-slider', {
 });
 
 
+//login page starts
+let emailpattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/; 
+
+const email = document.querySelector("#email");
+const password = document.querySelector("#password");
+const confirmPassword = document.querySelector("#confirmPassword");
+const message = document.querySelector("#confirmMessage");
+const submission = document.querySelector("#submitBtn");
+
+function checkPasswordsMatch(){
+    if (password.value === confirmPassword.value){
+        message.textContent = "";
+        submission.removeAttribute("disabled");
+    }else{
+        message.textContent = "passwords does not match";
+    submission.setAttribute("disabled", "true");
+    }
+}
+
+function checkEmail(){
+    if (emailpattern.test(email.value) === true){
+        message.textContent = "";
+        submission.removeAttribute("disabled");
+    }else{
+        message.textContent = "email is not right";
+        submission.setAttribute("disabled", "true");
+    }
+    
+}
+
+
+if (password && confirmPassword) {
+    password.oninput = checkPasswordsMatch;
+    confirmPassword.oninput = checkPasswordsMatch;
+}
+
+if (email) {
+    email.oninput = checkEmail;
+}
+
+const signupForm = document.querySelector("#signup-form");
+if (signupForm) {
+    signupForm.onsubmit = function (event) {
+        event.preventDefault();
+        checkPasswordsMatch();
+        checkEmail();
+    };
+}
+//login page ends
+
 
 
 
