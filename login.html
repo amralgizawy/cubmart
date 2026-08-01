@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>cubmart login</title>
+</head>
+<body class = "body" id = "body">
+    <div class="container">
+        <div class="title">sign up</div>
+        <form action="#" class="form" id="signup-form">
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">Full name</span>
+                    <input type="text" placeholder="Enter your name" required>
+                </div>
+            </div>
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">username</span>
+                    <input type="text" placeholder="Enter your username" required>
+                </div>
+            </div>
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">phone number</span>
+                    <input type="text" placeholder="+12 3456789" required>
+                </div>
+            </div>
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">address</span>
+                    <input type="text" placeholder="22 somewhere,country 7161852" required>
+                </div>
+            </div>
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">Email</span>
+                    <input type="text" placeholder="Example@gmail.com" id ="email" required>
+                </div>
+            </div>
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">password</span>
+                    <input type="password" placeholder="Enter a password" id ="password" required>
+                </div>
+            </div>
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">confirm password</span>
+                    <input type="password" placeholder="confirm your password" id ="confirmPassword" required>
+                </div>
+            </div>
+            <div class="gender-details">
+                <span class="gender-title">Gender</span>
+                <div class="category">
+                    <label>
+                        <input type="radio" name="gender" value="male" checked>
+                        <span class="dot-one"></span>
+                        <span class="gender">male</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="gender" value="female">
+                        <span class="dot-one"></span>
+                        <span class="gender">female</span>
+                    </label>
+                </div>
+            </div>
+            <span id ="confirmMessage"></span>
+            <button type="submit" class = "btn" id ="submitBtn">sign in</button>
+        </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
