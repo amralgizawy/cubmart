@@ -17,4 +17,5 @@ cubmart is a fully responsive front-end web application for an online e commerce
   *  [FontAwesome](https://fontawesome.com/) (v6.4.0) for the iconography.
   *   [Google Fonts](https://fonts.google.com/) (Poppins) for the typography.
 
-## **Note:** i worked super hard for this site and aster the 16 hrs mark i relized i had to commit changes one by one not all of them once so i started doing it late and there was some AI usage alongside the coding for the sake of fixing css and debugging but to main core code was written in AI, i am a new programmer without much experience so i hope you don't reject my first real project :(
+## **Note:**
+* i worked super hard for this site and aster the 16 hrs mark i relized i had to commit changes one by one not all of them once so i started doing it late and there was some AI usage alongside the coding for the sake of fixing css and debugging but to main core code was written in AI, i am a new programmer without much experience so i hope you don't reject my first real project :(
