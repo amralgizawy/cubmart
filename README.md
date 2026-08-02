@@ -7,6 +7,7 @@ cubmart is a fully responsive front-end web application for an online e commerce
 **interactive UI components:** buttons like a togglable shopping cart, search bar and even a navbar on smaller devices
 **dynamic images:** Utilizes Swiper.js to smoothly showcase products and customer reviews.
 **login form with validation:** in the togglable profile section if you choose "create account" you will be directed to the "sign up page" where you can make an account with form validation
+(<img width="1892" height="542" alt="Screenshot 2026-08-02 204508" src="https://github.com/user-attachments/assets/6fa78f1f-5bae-4881-b8b8-3b36ea6910ce" />)
 
 ## tech used:
 * **HTML5**: for the page markup
